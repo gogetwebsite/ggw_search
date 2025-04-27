@@ -16,7 +16,7 @@ func main() {
 		`Hello from txt4`: "",
 	};
 	s.IsStaticDIR  = true;
-	s.StaticDIRs = []string{"./test/a2.docx" , "./test/a.txt"};
+	s.StaticDIRs = []string{"./a.txt"};
 	s.FullSearch = false; 
 	s.IsReplaceAll = true;
 	s.OnlyGetMatchedClauses = true; // only simulate the search and dont't replace anything
