@@ -1,3 +1,4 @@
+[README.md](https://github.com/user-attachments/files/19931014/README.md)
 # 🔍 Fast Find and Replace
 
 A super fast tool to search and (optionally) replace text across tons of files!
@@ -72,7 +73,7 @@ main.go :
 
 ## 📝 Full config
 type Search struct{
-    TargetWords []string; // Sifting through data, to instantly search and add the path to the searchable path list.\n
+    TargetWords []string; // Sifting through data, to instantly search and add the path to the searchable path list.
     ReplacementWords map[string]string; // `(Regex)TargetWord` : "to raplace with" ,
     IsNotRegex bool; // TargetWord is not a regex
     FullSearch bool; // use 'ReplacementWords' keys to search in all lines (and replace or not)
